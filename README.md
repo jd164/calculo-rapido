@@ -1,174 +1,175 @@
-# ⚡ Cálculo Rápido
+# ⚡ Cálculo Rápido (Speed Math)
 
-> Uma aplicação interativa e moderna para treino e desenvolvimento de agilidade mental em cálculo matemático.
+> An interactive, modern web application designed to boost mental math agility, speed, and accuracy.
 
-[![Aceder à Aplicação](https://img.shields.io/badge/Demo_Online-Aceder_ao_Jogo-success?style=for-the-badge&logo=githubpages&logoColor=white)](https://jd164.github.io/calculo-rapido/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Play_Online-success?style=for-the-badge&logo=githubpages&logoColor=white)](https://jd164.github.io/calculo-rapido/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
 
-## 🎯 Sobre o Projeto
+## 🎯 About The Project
 
-O **Cálculo Rápido** é uma aplicação web concebida para estudantes, entusiastas e qualquer pessoa que deseje exercitar o cérebro e melhorar a velocidade e precisão no cálculo aritmético. 
+**Cálculo Rápido** is a web-based mental math training tool built for students, enthusiasts, and anyone looking to sharpen their arithmetic skills and mental agility. 
 
-Com uma interface limpa, intuitiva e responsiva, permite personalizar sessões de treino com diferentes operações, níveis de dificuldade e formatos de resposta, além de fornecer um histórico estatístico detalhado do progresso ao longo do tempo.
+Featuring a clean, intuitive, and responsive user interface, the app allows users to customize their workout sessions across various arithmetic operations, difficulty levels, and response formats, complete with in-depth statistical tracking to monitor progress over time.
 
-👉 **Experimente a versão online em:** [https://jd164.github.io/calculo-rapido/](https://jd164.github.io/calculo-rapido/)
-
----
-
-## ✨ Funcionalidades Principais
-
-- ➕ **Operações Aritméticas Completas:**
-  - Adição (`+`)
-  - Subtração (`-`)
-  - Multiplicação (`×`)
-  - Divisão (`÷`)
-  - Prática dedicada de **Tabuadas** (do 2 ao 12 personalizável)
-  - Modo **Misto** (combinação dinâmica de operações)
-
-- 🎚️ **Níveis de Dificuldade:**
-  - **Fácil:** Cálculos diretos e números menores, ideal para aquecimento e iniciantes.
-  - **Médio:** Desafios equilibrados para estimular o raciocínio rápido.
-  - **Difícil:** Números maiores e cálculos complexos sob pressão.
-
-- ⌨️ **Formatos de Resposta Flexíveis:**
-  - **Entrada Manual / Digitação:** Para simular cálculo real e treino com teclado numérico.
-  - **Escolha Múltipla:** Para decisões rápidas e treino de reflexos.
-
-- ⏱️ **Modos de Treino:**
-  - Sessões fixas de **10**, **20** ou **50** perguntas.
-  - Modo **Livre / Ilimitado** para treinar sem limite de questões.
-
-- 📊 **Estatísticas e Histórico:**
-  - Resumo de precisão (percentagem de acertos).
-  - Tempo médio de resposta por operação.
-  - Gráficos visuais de evolução e desempenho.
-  - Armazenamento persistente das sessões no navegador (`LocalStorage`).
-
-- 🔊 **Efeitos Sonoros e Feedback Imediato:**
-  - Efeitos sonoros para acertos e erros (com opção de ligar/desligar som).
-  - Animações e retorno visual instantâneo.
+👉 **Play the live game at:** [https://jd164.github.io/calculo-rapido/](https://jd164.github.io/calculo-rapido/)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ✨ Key Features
 
-- **[React 18](https://react.dev/)** — Biblioteca para construção de interfaces reativas.
-- **[Vite](https://vitejs.dev/)** — Ferramenta de build rápida e moderna para o ecossistema frontend.
-- **[Tailwind CSS](https://tailwindcss.com/)** — Framework utilitário de estilização para design responsivo e moderno.
-- **[Lucide React](https://lucide.dev/)** — Conjunto elegante de ícones para a interface.
-- **HTML5 Web Storage API** — Persistência do histórico de sessões localmente sem necessidade de backend.
+- ➕ **Comprehensive Arithmetic Operations:**
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`×`)
+  - Division (`÷`)
+  - Dedicated **Times Tables** practice (customizable from 2 to 12)
+  - **Mixed Mode** (dynamic mix of all operations)
+
+- 🎚️ **Multiple Difficulty Levels:**
+  - **Easy:** Straightforward calculations with smaller numbers — perfect for beginners and warm-ups.
+  - **Medium:** Balanced challenges designed to push calculation speed.
+  - **Hard:** Larger operands and multi-step mental arithmetic under pressure.
+
+- ⌨️ **Flexible Input Methods:**
+  - **Manual Input / Typing:** Simulates realistic calculations and numpad agility.
+  - **Multiple Choice:** Fast-paced option selection to test quick reflexes and estimation.
+
+- ⏱️ **Training Modes:**
+  - Fixed-length sessions: **10**, **20**, or **50** questions.
+  - **Free / Unlimited Mode** for continuous practice without time or question caps.
+
+- 📊 **Detailed Analytics & History:**
+  - Session accuracy rate (% correct).
+  - Average response time per operation.
+  - Visual charts showing performance trends and speed development over time.
+  - Persistent local session storage via browser `localStorage`.
+
+- 🔊 **Sound & Instant Visual Feedback:**
+  - Dynamic audio cues for correct and incorrect answers (with mute toggle).
+  - Smooth animations and immediate visual confirmation.
 
 ---
 
-## 📂 Estrutura do Repositório
+## 🛠️ Built With
+
+- **[React 18](https://react.dev/)** — Declarative UI library for component-based reactive state management.
+- **[Vite](https://vitejs.dev/)** — Next-generation frontend tooling and ultra-fast development server.
+- **[Tailwind CSS](https://tailwindcss.com/)** — Utility-first CSS framework for modern, responsive styling.
+- **[Lucide React](https://lucide.dev/)** — Clean, consistent icons throughout the UI.
+- **HTML5 Web Storage API** — Client-side persistent data storage without requiring an external backend.
+
+---
+
+## 📂 Project Structure
 
 ```plaintext
 calculo-rapido/
-├── .github/              # Workflows e configurações do GitHub
-├── public/               # Ativos estáticos públicos
+├── .github/              # GitHub Actions workflows and configuration
+├── public/               # Public static assets
 ├── src/
-│   ├── components/       # Componentes modulares da interface
-│   │   ├── Charts.jsx    # Gráficos de desempenho e progresso
-│   │   ├── Game.jsx      # Ecrã ativo de jogo e cálculo
-│   │   ├── Header.jsx    # Cabeçalho da aplicação
-│   │   ├── Menu.jsx      # Menu de configurações e opções de jogo
-│   │   ├── Results.jsx   # Ecrã de resultados finais da sessão
-│   │   └── Stats.jsx     # Painel detalhado de estatísticas
-│   ├── utils/            # Utilitários, sons e gestão de LocalStorage
-│   ├── App.jsx           # Componente raiz e controlo de estado
-│   ├── index.css         # Configurações globais e diretivas Tailwind
-│   └── main.jsx          # Ponto de entrada da aplicação
-├── abrir.bat             # Atalho para arranque rápido em ambiente Windows
-├── index.html            # Estrutura HTML principal
-├── package.json          # Dependências e scripts do projeto
-├── tailwind.config.js    # Configuração de temas e cores do Tailwind
-└── vite.config.js        # Configuração do Vite
+│   ├── components/       # Modular UI components
+│   │   ├── Charts.jsx    # Performance charts and progress visualization
+│   │   ├── Game.jsx      # Active game screen and question handler
+│   │   ├── Header.jsx    # App header, sound toggle, and navigation
+│   │   ├── Menu.jsx      # Configuration menu and game mode selector
+│   │   ├── Results.jsx   # Post-session summary and score breakdown
+│   │   └── Stats.jsx     # Comprehensive statistics and history dashboard
+│   ├── utils/            # Helper utilities, audio synthesizer, and localStorage management
+│   ├── App.jsx           # Root application component and routing state
+│   ├── index.css         # Global stylesheet and Tailwind directives
+│   └── main.jsx          # Application entry point
+├── abrir.bat             # One-click launch script for Windows environments
+├── index.html            # HTML entry point
+├── package.json          # Project metadata, dependencies, and scripts
+├── tailwind.config.js    # Tailwind theme customizations
+└── vite.config.js        # Vite configuration and build options
 ```
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🚀 Getting Started
 
-### Pré-requisitos
-Certifique-se de ter instalado:
-- [Node.js](https://nodejs.org/) (versão 18 ou superior recomendada)
-- Gestor de pacotes [npm](https://www.npmjs.com/) (já incluído no Node.js) ou [yarn](https://yarnpkg.com/) / [pnpm](https://pnpm.io/)
+### Prerequisites
 
-### Passo a Passo
+Ensure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (version 18 or higher recommended)
+- Package manager: [npm](https://www.npmjs.com/) (bundled with Node.js), [yarn](https://yarnpkg.com/), or [pnpm](https://pnpm.io/)
 
-1. **Clonar o repositório:**
+### Installation
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/jd164/calculo-rapido.git
    ```
 
-2. **Aceder à pasta do projeto:**
+2. **Navigate into the project directory:**
    ```bash
    cd calculo-rapido
    ```
 
-3. **Instalar as dependências:**
+3. **Install dependencies:**
    ```bash
    npm install
    ```
 
-4. **Iniciar o servidor de desenvolvimento:**
+4. **Start the development server:**
    ```bash
    npm run dev
    ```
 
-5. **Abrir no navegador:**
-   - Aceda a `http://localhost:5173/` (ou ao endereço indicado no terminal).
+5. **Open in your browser:**
+   - Visit `http://localhost:5173/` (or the URL output in your terminal).
 
-> 💡 **Utilizadores Windows:** Pode também clicar duas vezes no ficheiro `abrir.bat` para iniciar rapidamente.
+> 💡 **Windows Tip:** You can also simply double-click the `abrir.bat` file to install/launch the project automatically.
 
 ---
 
-## 📦 Scripts Disponíveis
+## 📦 Available Scripts
 
-No ficheiro `package.json`, estão disponíveis os seguintes comandos:
+In the project root, you can execute:
 
-| Comando | Descrição |
+| Command | Description |
 | :--- | :--- |
-| `npm run dev` | Inicia o servidor local de desenvolvimento com hot-reload. |
-| `npm run build` | Compila o projeto otimizado para produção na pasta `dist/`. |
-| `npm run preview` | Pré-visualiza localmente a versão gerada na pasta de build. |
+| `npm run dev` | Runs the app in development mode with Hot Module Replacement (HMR). |
+| `npm run build` | Compiles and minifies the app for production in the `dist/` folder. |
+| `npm run preview` | Locally previews the production build. |
 
 ---
 
-## 🌐 Publicação (Deploy) no GitHub Pages
+## 🌐 Deployment to GitHub Pages
 
-O projeto já está configurado para deploy contínuo no **GitHub Pages**:
+This project is set up for continuous deployment using **GitHub Pages**:
 
-1. Ao realizar alterações na branch `main`, o build é gerado via Vite.
-2. A aplicação compilada fica disponível publicamente em:
+1. Any changes pushed to the `main` branch trigger an automated build workflow.
+2. The production bundle is deployed and accessible at:
    ```
    https://jd164.github.io/calculo-rapido/
    ```
 
 ---
 
-## 🤝 Contribuições
+## 🤝 Contributing
 
-Contribuições, ideias de melhorias e sugestões são bem-vindas!
-1. Faça um Fork do projeto.
-2. Crie uma branch para a sua funcionalidade (`git checkout -b feature/nova-funcionalidade`).
-3. Faça commit das alterações (`git commit -m 'Adiciona nova funcionalidade'`).
-4. Envie para o repositório remoto (`git push origin feature/nova-funcionalidade`).
-5. Abra um **Pull Request**.
+Contributions, feedback, and feature suggestions are always welcome!
+
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/amazing-feature`).
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`).
+4. Push to the branch (`git push origin feature/amazing-feature`).
+5. Open a **Pull Request**.
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto é disponibilizado para fins educativos e de desenvolvimento pessoal. Consulte o autor para detalhes adicionais de licenciamento.
+This project is open-source and intended for educational and self-improvement purposes. Check with the author for specific licensing terms.
 
 ---
 
 <div align="center">
-  Desenvolvido com ⚡ por <a href="https://github.com/jd164">jd164</a>
+  Crafted with ⚡ by <a href="https://github.com/jd164">jd164</a>
 </div>
-
